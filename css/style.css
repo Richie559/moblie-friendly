@@ -1,84 +1,36 @@
-*{
-    box-sizing: border-box;
+.jumbotron{
+  margin-bottom: 0px;
+  height: 100vh;
+  padding: 0px !important;
+  text-align: center;
+  margin: 0px !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-body{
-    padding: 0;
-    margin:0;
-    background-color: black;
+.jumbo1{
+  background-image: url(https://images.pexels.com/photos/257352/pexels-photo-257352.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
-
-.wrapper{
-    max-width: 1750px;
-    margin: 0 auto;
-    background-color: white;
-    min-height: 100vh;
-    position: relative;
+.jumbo2{
+  background-image: url(https://images.unsplash.com/photo-1447958272669-9c562446304f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1760&q=80);
 }
-
-header{
-    position: relative;
+.jumbo3{
+  background-image: url(https://images.pexels.com/photos/36363/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
-
-/* top gradient */
-#Layer_1{
-    width: 100%;
+.Yosemite{
+  font-family: lobster;
 }
-
-.title{
-    color: white;
-    margin: auto;
-    /* font-size: 50px; */
-    font-size: calc(25px + 1vw);
-    position: absolute;
-    /* top: 50px; */
-    top: calc(20px + 6vw);
-    font-family: sans-serif;
-    text-align: center;
-    width: 100%;
+.Grand{
+  font-family: Ephesis;
 }
-
-main{
-    padding: 50px 10%;
+.navbar-nav{
+  padding: 0px !important;
 }
-
-.heading {
-    color: rgba(9,109,121,1);
-    font-size: 1.6em;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+.row{
+  margin: 0px !important;
+  padding: 0px !important;
 }
-
-.content:nth-of-type(even) > *{
-    text-align: right;
+.container-fluid{
+  padding: 0px;
 }
-
-footer{
-    background-color: rgba(0,29,36,1);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 50px;
-    text-align: center;
-    color: white;
-}
-
-
-
-/** media**/
-@media screen and (max-width: 1024px) {
-    header{
-      background-color: #000;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    header {
-      background-color: red;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    header {
-      background-color: green;
-    }
-  }
